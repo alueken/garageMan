@@ -3,231 +3,280 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Garage Door Repair Vernon Hills IL | The Garage Man Inc.</title>
+    <title>The Garage Door Man Inc | Garage Door Repair & Replacement Lake County IL</title>
+    <meta name="description" content="Affordable, honest garage door repair and replacement in Lake County, IL. Owned by Daniel McNulty. Serving Mundelein, Vernon Hills, Libertyville, and Lincolnshire. Call 847-970-7292 for a free consultation!">
+    <meta name="keywords" content="the garage door man, garage door repair lake county il, garage door replacement mundelein, fix garage door libertyville, vernon hills garage door opener, lincolnshire il garage doors, daniel mcnulty garage man">
+    <style>
+        /* COLOR PALETTE (From Business Card) */
+        :root {
+            --brand-lime: #b6f840; /* High-visibility card green */
+            --dark-charcoal: #111111; /* Sharp contrast black/gray */
+            --light-bg: #f9fbf7;
+            --white: #ffffff;
+            --text-muted: #555555;
+        }
+        
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial Black', Impact, sans-serif; /* High-impact font style matching business card */
+        }
 
-    <meta name="description" content="Garage door repair, spring replacement, garage door installation, opener repair, and garage door replacement throughout Vernon Hills, Libertyville, Mundelein, Lincolnshire, Grayslake and Lake County Illinois.">
+        body {
+            color: var(--dark-charcoal);
+            background-color: var(--white);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+        }
 
-    <meta name="keywords" content="garage door repair Vernon Hills, garage door repair Mundelein, garage door repair Libertyville, garage door replacement Lake County, garage door installation Vernon Hills, garage door spring repair">
+        h1, h2, h3, .brand-font {
+            font-family: 'Arial Black', Gadget, sans-serif;
+            letter-spacing: -0.5px;
+        }
 
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 50px 0;
+        }
 
-<header>
-    <div class="container">
-        <div class="logo-section">
-            <h1>The Garage Man Inc.</h1>
-            <p>Local Garage Door Repair & Installation in Lake County, Illinois</p>
-        </div>
+        .text-center { text-align: center; }
 
-        <div class="phone-box">
-            <h2>Call Dan Today</h2>
-            <a href="tel:8476130595">847-613-0595</a>
-            <p>Free Home Consultations</p>
-        </div>
-    </div>
-</header>
+        /* BUTTONS */
+        .btn {
+            display: inline-block;
+            background: var(--brand-lime);
+            color: var(--dark-charcoal);
+            padding: 15px 30px;
+            text-decoration: none;
+            font-weight: 900;
+            font-size: 1.1rem;
+            border-radius: 6px;
+            border: 2px solid var(--dark-charcoal);
+            text-transform: uppercase;
+            box-shadow: 4px 4px 0px var(--dark-charcoal);
+            transition: all 0.2s ease;
+        }
+        .btn:hover {
+            transform: translate(-2px, -2px);
+            box-shadow: 6px 6px 0px var(--dark-charcoal);
+        }
+        .btn:active {
+            transform: translate(2px, 2px);
+            box-shadow: 2px 2px 0px var(--dark-charcoal);
+        }
 
-<section class="hero">
-    <div class="overlay">
-        <div class="container">
-            <h2>Garage Door Repairs & Replacements Without the Big Company Prices</h2>
-            <p>
-                Honest, affordable garage door service throughout Lake County.
-                Owned and operated by Daniel McNulty of Mundelein.
-            </p>
+        .btn-outline {
+            background: var(--white);
+            border: 2px solid var(--dark-charcoal);
+            color: var(--dark-charcoal);
+        }
+        .btn-outline:hover {
+            background: var(--brand-lime);
+        }
 
-            <a href="tel:8476130595" class="btn">Call Now</a>
-        </div>
-    </div>
-</section>
+        /* NAVIGATION / HEADER */
+        header {
+            background: var(--dark-charcoal);
+            color: var(--white);
+            padding: 15px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            border-bottom: 5px solid var(--brand-lime);
+        }
+        .nav-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .logo h1 { 
+            font-size: 1.8rem; 
+            color: var(--brand-lime);
+            text-transform: uppercase;
+        }
+        .logo p { font-size: 0.9rem; color: #ccc; font-weight: bold; }
+        
+        .header-contacts {
+            text-align: right;
+        }
+        .header-phone {
+            color: var(--white);
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1rem;
+            display: block;
+        }
+        .header-phone span { color: var(--brand-lime); }
 
-<section class="about">
-    <div class="container">
-        <h2>Why Choose The Garage Man?</h2>
+        /* HERO SECTION */
+        .hero {
+            background: var(--brand-lime);
+            color: var(--dark-charcoal);
+            text-align: center;
+            padding: 90px 0;
+            border-bottom: 5px solid var(--dark-charcoal);
+            position: relative;
+        }
+        .hero h2 { font-size: 3rem; text-transform: uppercase; margin-bottom: 15px; line-height: 1.1; }
+        .hero p { font-size: 1.3rem; max-width: 800px; margin: 0 auto 30px; font-weight: 600; }
+        
+        .phone-box-hero {
+            background: var(--white);
+            border: 3px solid var(--dark-charcoal);
+            padding: 20px;
+            display: inline-block;
+            border-radius: 8px;
+            margin-bottom: 25px;
+            box-shadow: 5px 5px 0px var(--dark-charcoal);
+        }
+        .phone-box-hero a {
+            color: var(--dark-charcoal);
+            text-decoration: none;
+            font-size: 1.5rem;
+            font-weight: 900;
+            display: block;
+        }
 
-        <p>
-            The Garage Man Inc. is a locally owned garage door company serving
-            homeowners throughout Vernon Hills, Mundelein, Libertyville,
-            Lincolnshire, Grayslake, Lake Zurich, Buffalo Grove and surrounding
-            Lake County communities.
-        </p>
+        /* BADGE BAR */
+        .badge-bar {
+            background: var(--dark-charcoal);
+            color: var(--white);
+            padding: 15px 0;
+            text-align: center;
+            font-weight: bold;
+            font-size: 1.2rem;
+            letter-spacing: 1px;
+        }
+        .badge-bar span { color: var(--brand-lime); }
 
-        <p>
-            Unlike large national companies, you'll work directly with Dan.
-            No sales pressure. No unnecessary upsells. Just honest service,
-            quality work, and fair pricing.
-        </p>
+        /* SERVICES SECTION */
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            margin-top: 40px;
+        }
+        .service-card {
+            background: var(--light-bg);
+            padding: 30px;
+            border-radius: 8px;
+            border: 2px solid var(--dark-charcoal);
+            box-shadow: 4px 4px 0px var(--dark-charcoal);
+        }
+        .service-card h3 { margin-bottom: 15px; color: var(--dark-charcoal); font-size: 1.4rem; border-bottom: 3px solid var(--brand-lime); padding-bottom: 5px; }
+        .service-card p { color: var(--text-muted); font-size: 0.95rem; }
 
-        <ul>
-            <li>Locally Owned & Operated</li>
-            <li>Based in Mundelein</li>
-            <li>Free Home Consultations</li>
-            <li>Affordable Pricing</li>
-            <li>Fast Response Times</li>
-            <li>Experienced Garage Door Specialist</li>
-        </ul>
-    </div>
-</section>
+        /* ABOUT / MEDIA SECTION */
+        .about-section {
+            background: var(--light-bg);
+            border-top: 2px solid #e0e0e0;
+            border-bottom: 2px solid #e0e0e0;
+        }
+        .about-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 50px;
+            align-items: center;
+        }
+        .about-text h2 { font-size: 2.2rem; color: var(--dark-charcoal); margin-bottom: 20px; }
+        .about-text p { margin-bottom: 15px; color: #333; }
+        
+        .media-container {
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+        }
+        .media-box {
+            background: var(--white);
+            padding: 15px;
+            border-radius: 8px;
+            border: 2px solid var(--dark-charcoal);
+            box-shadow: 5px 5px 0px var(--dark-charcoal);
+        }
+        .media-box img {
+            width: 100%;
+            height: auto;
+            border-radius: 4px;
+            display: block;
+        }
+        .media-caption {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            font-style: italic;
+            margin-top: 8px;
+            text-align: center;
+            font-weight: bold;
+        }
 
-<section class="services">
-    <div class="container">
-        <h2>Garage Door Services</h2>
+        /* REVIEWS SECTION */
+        .reviews-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin: 40px 0;
+        }
+        .review-card {
+            background: var(--white);
+            padding: 25px;
+            border-radius: 8px;
+            border: 2px solid var(--dark-charcoal);
+            position: relative;
+        }
+        .review-card .stars { color: #f39c12; margin-bottom: 10px; font-size: 1.2rem; }
+        .review-card p { font-style: italic; font-size: 1rem; margin-bottom: 15px; color: #222; }
+        .review-card .author { font-weight: bold; color: var(--dark-charcoal); }
+        .review-source {
+            float: right;
+            background: var(--brand-lime);
+            padding: 2px 8px;
+            font-size: 0.75rem;
+            font-weight: bold;
+            border-radius: 4px;
+            border: 1px solid var(--dark-charcoal);
+        }
+        
+        .review-links {
+            margin-top: 40px;
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
 
-        <div class="service-grid">
+        /* SERVICE AREAS */
+        .areas-section {
+            background: var(--dark-charcoal);
+            color: var(--white);
+            padding: 60px 0;
+            text-center;
+        }
+        .areas-list {
+            display: flex;
+            justify-content: center;
+            gap: 15px 25px;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+        .areas-list span {
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid var(--brand-lime);
+            color: var(--white);
+            padding: 8px 20px;
+            border-radius: 4px;
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
 
-            <div class="service-card">
-                <h3>Broken Spring Repair</h3>
-                <p>
-                    Torsion spring replacement, extension spring replacement,
-                    lift cable repairs, drums, and complete spring systems.
-                </p>
-            </div>
-
-            <div class="service-card">
-                <h3>Garage Door Repair</h3>
-                <p>
-                    Doors stuck open or closed, noisy operation, damaged panels,
-                    track repairs, roller replacement, and more.
-                </p>
-            </div>
-
-            <div class="service-card">
-                <h3>Garage Door Openers</h3>
-                <p>
-                    Opener repair, opener installation, remote troubleshooting,
-                    safety sensor repairs, and replacement systems.
-                </p>
-            </div>
-
-            <div class="service-card">
-                <h3>Garage Door Installation</h3>
-                <p>
-                    New residential garage doors installed professionally and
-                    affordably throughout Lake County.
-                </p>
-            </div>
-
-            <div class="service-card">
-                <h3>Garage Door Replacement</h3>
-                <p>
-                    Upgrade old, damaged, or outdated garage doors with modern,
-                    energy-efficient options.
-                </p>
-            </div>
-
-            <div class="service-card">
-                <h3>Maintenance & Tune-Ups</h3>
-                <p>
-                    Preventative maintenance to keep your garage door operating
-                    safely and smoothly.
-                </p>
-            </div>
-
-        </div>
-    </div>
-</section>
-
-<section class="gallery">
-    <div class="container">
-        <h2>Recent Projects</h2>
-
-        <div class="gallery-grid">
-            <img src="images/project1.jpg" alt="Garage Door Installation Vernon Hills">
-            <img src="images/project2.jpg" alt="Garage Door Repair Mundelein">
-            <img src="images/project3.jpg" alt="Garage Door Replacement Libertyville">
-            <img src="images/project4.jpg" alt="Garage Door Installation Lincolnshire">
-        </div>
-
-        <p class="gallery-note">
-            Add your project photos here to showcase completed work.
-        </p>
-    </div>
-</section>
-
-<section class="reviews">
-    <div class="container">
-
-        <h2>Customer Reviews</h2>
-
-        <div class="review">
-            <p>
-                "Dan the Garage Door Man is awesome. Spring broke last night.
-                Replaced the complete springs, bar, drums and lift cables."
-            </p>
-            <strong>- Art A.</strong>
-        </div>
-
-        <div class="review">
-            <p>
-                "Very friendly, knowledgeable and honest. Definitely recommend him."
-            </p>
-            <strong>- Randy M.</strong>
-        </div>
-
-        <div class="review">
-            <p>
-                "Friendly, efficient, knowledgeable and very honest."
-            </p>
-            <strong>- Jan C.</strong>
-        </div>
-
-        <div class="review">
-            <p>
-                "The door opens and closes and sounds like new."
-            </p>
-            <strong>- Judy D.</strong>
-        </div>
-
-        <div class="review">
-            <p>
-                "Very reasonably priced. Came first thing Saturday morning."
-            </p>
-            <strong>- Karen P.</strong>
-        </div>
-
-    </div>
-</section>
-
-<section class="areas">
-    <div class="container">
-        <h2>Service Areas</h2>
-
-        <p>
-            Vernon Hills • Mundelein • Libertyville • Lincolnshire • Grayslake •
-            Lake Zurich • Buffalo Grove • Hawthorn Woods • Long Grove • Gurnee •
-            Round Lake • Lake Villa • Antioch • Wadsworth • Deerfield •
-            Highland Park • Northbrook and surrounding Lake County communities.
-        </p>
-    </div>
-</section>
-
-<section class="contact">
-    <div class="container">
-
-        <h2>Schedule Your Free Home Consultation</h2>
-
-        <p>
-            Need a garage door repair or replacement?
-            Contact Dan directly today.
-        </p>
-
-        <a href="tel:8476130595" class="btn">Call 847-613-0595</a>
-
-        <h3>Daniel McNulty</h3>
-        <p>Owner, The Garage Man Inc.</p>
-
-    </div>
-</section>
-
-<footer>
-    <div class="container">
-        <p>
-            © 2026 The Garage Man Inc. | Garage Door Repair & Installation
-            throughout Lake County, Illinois
-        </p>
-    </div>
-</footer>
-
-</body>
-</html>
+        /* FOOTER */
+        footer {
+            background: #000000;
+            color: #aaaaaa;
+            text-align: center;
+            padding: 40px 0;
+            border
