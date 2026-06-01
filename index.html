@@ -279,4 +279,176 @@
             color: #aaaaaa;
             text-align: center;
             padding: 40px 0;
-            border
+            border-top: 5px solid var(--brand-lime);
+        }
+        footer h3 { color: var(--white); margin-bottom: 10px; }
+        footer p { font-size: 0.9rem; }
+        footer .footer-accent { color: var(--brand-lime); font-weight: bold; }
+
+        /* RESPONSIVE DESIGN */
+        @media (max-width: 768px) {
+            .nav-container { flex-direction: column; text-align: center; gap: 15px; }
+            .header-contacts { text-align: center; }
+            .hero h2 { font-size: 2rem; }
+            .hero p { font-size: 1.1rem; }
+            .phone-box-hero a { font-size: 1.2rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="nav-container">
+            <div class="logo">
+                <h1>The Garage Door Man</h1>
+                <p>Installations & Repairs • Doors & Openers</p>
+            </div>
+            <div class="header-contacts">
+                <a href="tel:847-970-7292" class="header-phone">Primary: <span>847-970-7292</span></a>
+                <a href="tel:847-613-0595" class="header-phone">Cell: <span>847-613-0595</span></a>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>No-Frills Garage Door Service<br>At Reasonable Prices</h2>
+            <p>Skip the massive corporate markup. Get honest, quick garage door repairs and full replacements from your Lake County local expert.</p>
+            
+            <div class="phone-box-hero">
+                <a href="tel:847-970-7292">📞 Primary: 847-970-7292</a>
+                <a href="tel:847-613-0595" style="margin-top: 5px;">📱 Cell (Ask for Dan): 847-613-0595</a>
+            </div>
+            
+            <div>
+                <a href="tel:847-970-7292" class="btn">Call For Free Consultation</a>
+            </div>
+        </div>
+    </section>
+
+    <div class="badge-bar">
+        Se Habla Español | 🛠️ Owned & Operated by <span>Daniel McNulty</span> | 🏡 Based in Mundelein, IL
+    </div>
+
+    <section class="container" id="services">
+        <h2 class="text-center" style="font-size: 2.2rem; margin-bottom: 10px;">Expert Installations & Repairs</h2>
+        <p class="text-center" style="color: var(--text-muted); max-width: 600px; margin: 0 auto;">No job is too big or small. Dan fixes your garage door right the first time using heavy-duty, dependable parts.</p>
+        
+        <div class="services-grid">
+            <div class="service-card">
+                <h3>Spring Replacement</h3>
+                <p>Broken torsion or extension springs completely shut your system down. Dan safely replaces snapped springs, drums, and heavy lift cables quickly to get your door running safely.</p>
+            </div>
+            <div class="service-card">
+                <h3>New Door Installation</h3>
+                <p>Ready to upgrade your home's curb appeal or replace a severely damaged setup? Get professional full garage door replacements at a fraction of the cost of big commercial chains.</p>
+            </div>
+            <div class="service-card">
+                <h3>Opener Repairs & Installs</h3>
+                <p>Fixing stubborn remote sensors, worn gears, wall buttons, or replacing older systems with brand new, whisper-quiet garage door openers.</p>
+            </div>
+            <div class="service-card">
+                <h3>Track & Roller Service</h3>
+                <p>If your garage door is noisy, shaking, or popped off its tracks, we replace worn steel rollers with smooth nylon ones and realign bent framing tracks.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-section">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-text">
+                    <h2>Lake County's Honest, Local Garage Expert</h2>
+                    <p>When you call <strong>The Garage Door Man Inc</strong>, you handle business directly with the owner, <strong>Daniel McNulty</strong>. Living right here in Mundelein, Dan has built a rock-solid reputation across Lake County by saving homeowners hundreds of dollars compared to the corporate options.</p>
+                    <p>There are no high-pressure sales tactics or unnecessary upsells here. Just clean, reliable, no-frills garage door repair services fitted seamlessly into your schedule—often arriving just hours after you call.</p>
+                    <a href="tel:847-970-7292" class="btn btn-outline" style="margin-top: 15px;">Get a Free Estimate</a>
+                </div>
+                
+                <div class="media-container">
+                    <div class="media-box">
+                        <img src="https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-6/438196703_122107695122283312_3155932913764579240_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=101&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=p8Hukz7Mx5cQ7kNvwHmgU1e&_nc_oc=AdolYs3dF0clL5Pjcw33xDYgKvMdJ0VHAy006XDcvDRaHEJJZrR5RBYCeIt6GMYqBVpDn2AEF2Iytrtu1VXObZ2o&_nc_zt=23&_nc_ht=scontent-ord5-1.xx&_nc_gid=suBI1HPdNwc775C7Ia6UgA&_nc_ss=7b2a8&oh=00_Af9fIX1EXqWGIZTSjWE1nmDAtr3h6B20q-Ep6f4hMjvNiQ&oe=6A234B38" alt="The Garage Door Man Inc Official Business Card">
+                        <p class="media-caption">The Garage Door Man Inc. Official Business Card</p>
+                    </div>
+                    
+                    <div class="media-box">
+                        <img src="https://images.unsplash.com/photo-1558036117-15d82a90b9b1?auto=format&fit=crop&w=600&q=80" alt="New Garage Door Installation Project">
+                        <p class="media-caption">High-Quality, Professional Local Installations</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <h2 class="text-center" style="font-size: 2.2rem; margin-bottom: 10px;">Recommended By Your Neighbors</h2>
+        <p class="text-center" style="color: var(--text-muted);">Real reviews shared by local homeowners in the community.</p>
+        
+        <div class="reviews-grid">
+            <div class="review-card">
+                <span class="review-source">Facebook</span>
+                <div class="stars">★★★★★</div>
+                <p>"Dan the Garage Door Man is awesome. Spring broke last night, parts to replace was months out. Replaced the complete springs and bar, drums and lift cables. Done…"</p>
+                <div class="author">- Art A.</div>
+            </div>
+            
+            <div class="review-card">
+                <span class="review-source">Facebook</span>
+                <div class="stars">★★★★★</div>
+                <p>"Just had Dan The Garage Door Man service our garage door. Cant speak more highly of Dan. Very friendly, knowledgeable and honest. Definitely recommend him."</p>
+                <div class="author">- Randy M.</div>
+            </div>
+            
+            <div class="review-card">
+                <span class="review-source">Facebook</span>
+                <div class="stars">★★★★★</div>
+                <p>"Anyone needing Garage door service, I highly recommend Dan, found him on the deerpath site and he was great. Friendly, efficient, knowledgeable and very honest."</p>
+                <div class="author">- Jan C.</div>
+            </div>
+            
+            <div class="review-card">
+                <span class="review-source">Facebook</span>
+                <div class="stars">★★★★★</div>
+                <p>"Dan the Garage Man was here. He arrived about an hour after I called and fit me in between his calls. The door opens and closes and sounds like new. He was efficient and speedy."</p>
+                <div class="author">- Judy D.</div>
+            </div>
+            
+            <div class="review-card">
+                <span class="review-source">Facebook</span>
+                <div class="stars">★★★★★</div>
+                <p>"We use The Garage Door Man - Daniel McNulty. In fact our spring broke Friday night and he came first thing Saturday morning to fix it. Very reasonably priced too."</p>
+                <div class="author">- Karen P.</div>
+            </div>
+        </div>
+        
+        <div class="review-links">
+            <a href="https://www.google.com/search?q=garage+door+man+inc+google" target="_blank" class="btn">⭐ Read Google Reviews</a>
+            <a href="https://www.yelp.com/biz/the-garage-door-man-grayslake?osq=Garage+Door+man&override_cta=Get+pricing+%26+availability" target="_blank" class="btn btn-outline">📋 Yelp Profile</a>
+            <a href="https://www.facebook.com/profile.php?id=61558708864986" target="_blank" class="btn btn-outline">👍 Facebook Page</a>
+        </div>
+    </section>
+
+    <section class="areas-section">
+        <div class="container text-center" style="padding: 0;">
+            <h2 style="font-size: 2.2rem; margin-bottom: 10px;">Serving All of Lake County, IL</h2>
+            <p style="color: #ccc; max-width: 600px; margin: 0 auto;">Based locally out of Mundelein to provide rapid response times to our surrounding neighborhoods:</p>
+            <div class="areas-list">
+                <span>Mundelein</span>
+                <span>Vernon Hills</span>
+                <span>Libertyville</span>
+                <span>Lincolnshire</span>
+                <span>Grayslake</span>
+                <span>All Lake County Towns</span>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container" style="padding: 0;">
+            <h3>The Garage Door Man Inc</h3>
+            <p>Mundelein, IL 60060 | Primary: 847-970-7292 | Cell: 847-613-0595</p>
+            <p style="margin-top: 15px; font-size: 0.8rem;">&copy; 2026 The Garage Door Man Inc. All Rights Reserved. <span class="footer-accent">No-Frills Local Garage Door Repair.</span></p>
+        </div>
+    </footer>
+
+</body>
+</html>
